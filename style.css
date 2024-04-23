@@ -8,5 +8,10 @@ body {
 #board {
     width: 680px;
     height: 680px;
-    background-color: red;
+    margin: 0 auto;
+    /* can do this with grid-template-columns, grid-template-rows */
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #000EB4;
+    border-radius: 25px;
 }
