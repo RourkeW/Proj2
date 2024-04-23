@@ -14,8 +14,16 @@ function runGame() {
     }
 }
 
+function getRandomTile() {
+    //this is to decide the tile the mole is at so *9 for the amount of holes
+    let num = Math.floor(Math.random() * 9);
+    return num.toString();
+}
+
 function setMole() {
 
     let mole = document.createElement("img");
     mole.src = "mole.png";
+
+    let num = getRandomTile();
 }
