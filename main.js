@@ -66,4 +66,8 @@ function selectTile() {
         score += 10;
         document.getElementById("score").innerText = score.toString();
     }
+    else if (this == bombTile) {
+        document.getElementById("score").innerText = "GAME OVER: " + score.toString();
+        gameOver = true;
+    }
 }
