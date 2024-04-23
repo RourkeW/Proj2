@@ -12,10 +12,12 @@ function runGame() {
         tile.id=i.toString();
         document.getElementById("board").appendChild(tile);
     }
+
+    setInterval(setMole, 1400);
 }
 
 function getRandomTile() {
-    //this is to decide the tile the mole is at so *9 for the amount of holes
+    //this is to decide the tile the mole is at so *9 for the amount of holes, floor makes it never choose 9
     let num = Math.floor(Math.random() * 9);
     return num.toString();
 }
@@ -26,4 +28,6 @@ function setMole() {
     mole.src = "mole.png";
 
     let num = getRandomTile();
+    moleTile = document.getElementById(num);
+    moleTile.appendChild(mole);
 }

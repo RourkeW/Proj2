@@ -25,3 +25,5 @@ body {
     /*box-shadow idea from: https://www.youtube.com/watch?v=b20YueeXwZg&t=878s */
     box-shadow: inset 0 10px 0 7px #402905;
 }
+
+#board div img
