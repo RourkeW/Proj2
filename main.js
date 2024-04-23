@@ -24,6 +24,10 @@ function getRandomTile() {
 
 function setMole() {
 
+    if (moleTile) {
+        moleTile.innerHTML="";
+    }
+
     let mole = document.createElement("img");
     mole.src = "mole.png";
 
