@@ -27,6 +27,10 @@ function getRandomTile() {
 }
 
 function setMole() {
+    
+    if (gameOver) {
+        return;
+    }
 
     if (moleTile) {
         moleTile.innerHTML="";
@@ -44,6 +48,10 @@ function setMole() {
 }
 
 function setBomb() {
+
+    if (gameOver) {
+        return;
+    }
 
     if(bombTile) {
         bombTile.innerHTML="";
