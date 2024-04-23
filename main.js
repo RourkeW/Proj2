@@ -1,5 +1,5 @@
 let moleTile;
-
+let bombTile;
 
 window.onload = function() {
     runGame();
@@ -13,7 +13,8 @@ function runGame() {
         document.getElementById("board").appendChild(tile);
     }
 
-    setInterval(setMole, 1400);
+    setInterval(setMole, 750);
+    setInterval(setBomb, 1500);
 }
 
 function getRandomTile() {
@@ -34,4 +35,18 @@ function setMole() {
     let num = getRandomTile();
     moleTile = document.getElementById(num);
     moleTile.appendChild(mole);
+}
+
+function setBomb() {
+
+    if(bombTile) {
+        bombTile.innerHTML="";
+    }
+
+    let bomb = document.createElement("img");
+    bomb.src = "bomb.png";
+
+    let num = getRandomTile();
+    bombTile = document.getElementById(num);
+    bombTile.appendChild(bomb);
 }
