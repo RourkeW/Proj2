@@ -15,3 +15,8 @@ body {
     border: 2px solid #000EB4;
     border-radius: 25px;
 }
+
+#board div {
+    width: 200px;
+    height: 200px;
+}
