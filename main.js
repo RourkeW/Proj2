@@ -27,7 +27,7 @@ function getRandomTile() {
 }
 
 function setMole() {
-    
+
     if (gameOver) {
         return;
     }
@@ -69,6 +69,10 @@ function setBomb() {
 }
 
 function selectTile() {
+
+    if (gameOver) {
+        return;
+    }
 
     if(this == moleTile) {
         score += 10;
