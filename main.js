@@ -50,7 +50,7 @@ function setBomb() {
     bomb.src = "bomb.png";
 
     let num = getRandomTile();
-    if (bombTile && bombTile.id == num) {
+    if (moleTile && moleTile.id == num) {
         return;
     }
     bombTile = document.getElementById(num);
