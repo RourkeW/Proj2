@@ -1,5 +1,7 @@
 let moleTile;
 let bombTile;
+let score = 0;
+let gameOver = false;
 
 window.onload = function() {
     runGame();
@@ -10,6 +12,7 @@ function runGame() {
         //this is creating my 9 divs in the js withing the big game border I made in html you can see them now if we went to inspect
         let tile = document.createElement("div");
         tile.id=i.toString();
+        tile.addEventListener("click", selectTile);
         document.getElementById("board").appendChild(tile);
     }
 
@@ -55,4 +58,12 @@ function setBomb() {
     }
     bombTile = document.getElementById(num);
     bombTile.appendChild(bomb);
+}
+
+function selectTile() {
+
+    if(this == moleTile) {
+        score += 10;
+        document.getElementById("score").innerText = score.toString();
+    }
 }
