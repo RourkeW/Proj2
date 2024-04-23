@@ -33,6 +33,9 @@ function setMole() {
     mole.src = "mole.png";
 
     let num = getRandomTile();
+    if (bombTile && bombTile.id == num) {
+        return;
+    }
     moleTile = document.getElementById(num);
     moleTile.appendChild(mole);
 }
@@ -47,6 +50,9 @@ function setBomb() {
     bomb.src = "bomb.png";
 
     let num = getRandomTile();
+    if (bombTile && bombTile.id == num) {
+        return;
+    }
     bombTile = document.getElementById(num);
     bombTile.appendChild(bomb);
 }
