@@ -1,3 +1,6 @@
+let moleTile;
+
+
 window.onload = function() {
     runGame();
 }
@@ -9,4 +12,10 @@ function runGame() {
         tile.id=i.toString();
         document.getElementById("board").appendChild(tile);
     }
+}
+
+function setMole() {
+
+    let mole = document.createElement("img");
+    mole.src = "mole.png";
 }
