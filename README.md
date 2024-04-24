@@ -59,7 +59,7 @@ I chose this green colour as it wasn't too bright but I wanted something obvious
 
 I chose this dirt as I felt it would contrast the green grass well and make it obvious to the user that this is a hole in the ground, I would later use a box shadow property I found on YouTube to make this hole seem to have deprth rather than just a 2-D hole.
 
-![Blue chosen for the score and any other future text](read-me-images/cobalt-blue.JPG)
+![Blue chosen for the score and any other future text](read-me-images/cobalt-blue-contrast.JPG)
 
 Finally, I chose this as hexcol.com suggested it would be a good contrast, I tested this on WAVE and no contrast issues were found.
 
