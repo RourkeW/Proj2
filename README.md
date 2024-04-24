@@ -191,6 +191,8 @@ Full testing was performed on the following devices:
 
 * ## Credits
 
+* ### Code Used
+
 I got the project idea from just googling ideas for a javascript project, I also always wanted to make some kind of game since I have played games online my entire life. (https://www.freecodecamp.org/news/javascript-projects-for-beginners/)
 
 Videos I used onjline to help me complete the js of this page are: 
