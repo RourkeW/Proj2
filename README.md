@@ -161,7 +161,7 @@ I deployed my page on git pages, using github I found my repository I wanted to 
 ### W3C Validator
 
 [W3C](https://validator.w3.org/nu/
-![W3C Validator image for the HTML](read-me-images/CSS>JPG)
+![W3C Validator image for the HTML](read-me-images/CSS.JPG)
 
 ### Jshint Validator
 
