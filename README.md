@@ -17,7 +17,7 @@ This is a whac-a-mole mini-game made with html, css and js using gitpod.
   * [Wireframes](#wireframes)
 
 * [Features](#features)
-  * [General Features of the Page](#general-features-on-each-page)
+  * [General Features of the Page](#general-features-of-the-page)
   * [Future Implementations](#future-implementations)
   * [Accessibility](#accessibility)
 
