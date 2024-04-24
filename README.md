@@ -92,7 +92,7 @@ The page features a 3 by 3 grid of divs with css properties to make them look li
 
 The score span updates based on how often a mole is whacked or if the bomb is whacked. Clicking on the bomb results in a game over displayed in the Score span. Clicking on the mole results in a +10 points being added to the score total.
 
-![Score image](read-me-image/score-img.JPG)
+![Score image](read-me-images/score-img.JPG)
 
 ### Future Implementations
 
