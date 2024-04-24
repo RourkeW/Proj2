@@ -37,7 +37,6 @@ This is a whac-a-mole mini-game made with html, css and js using gitpod.
   * [Code Used](#code-used)
   * [Content](#content)
   * [Media](#media)
-  * [Acknowledgments](#acknowledgments)
 
 ---
 
