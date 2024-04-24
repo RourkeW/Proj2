@@ -44,7 +44,8 @@ This is a whac-a-mole mini-game made with html, css and js using gitpod.
 
 The content will not change as the game goes on in terms of elements, there will always be one mole and one bomb, with the same outcome happening when either is clicked. The goal of this game was primarily: 
 
-###Create a unpredictable whac-a-mole game
+### Create a unpredictable whac-a-mole game
+
 The Java-script makes sure the 9 divs are chosen at random using a Math.floor(Math.random) * 9) function to make sure there is no pattern in the bomb and the mole placement.
 
 ## Design 
