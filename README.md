@@ -155,4 +155,15 @@ I deployed my page on git pages, using github I found my repository I wanted to 
 
 ### Jigsaw CSS Validator
 
-[Jigsaw](https://jigsaw.w3.org/css-validator/validator) was used to validate the CSS code
+[Jigsaw]([https://jigsaw.w3.org/css-validator/validator](https://validator.w3.org/nu/)) was used to validate the HTML code
+![image proving no issues on nu](read-me-images/HTML.JPG)
+
+### W3C Validator
+
+[W3C](https://validator.w3.org/nu/
+![W3C Validator image for the HTML](read-me-images/CSS>JPG)
+
+### Jshint Validator
+
+[Jshint](https://jshint.com/) was used to validate the JS.
+![Image proving Jshint](read-me-images/js.JPG)
