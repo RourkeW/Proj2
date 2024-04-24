@@ -105,6 +105,8 @@ The score span updates based on how often a mole is whacked or if the bomb is wh
 
 4. Time limit for some difficulty.
 
+5.Perhaps make the holes less symmetrical, adds more difficulty to the game.
+
 ### Accessibility
 
 I have added alt tags where they are needed.
@@ -192,3 +194,18 @@ Full testing was performed on the following devices:
 I got the project idea from just googling ideas for a javascript project, I also always wanted to make some kind of game since I have played games online my entire life. (https://www.freecodecamp.org/news/javascript-projects-for-beginners/)
 
 Videos I used onjline to help me complete the js of this page are: 
+(https://www.youtube.com/results?search_query=how+to+make+a+whac+a+mole+game+in+html+css+and+js)
+(https://www.youtube.com/watch?v=D9ZfzXaCPuI&t=922s)
+(https://www.youtube.com/watch?v=rJU3tHLgb_c&t=1169s)
+
+### Media
+
+I found the logo I used here: (https://www.deviantart.com/spdy4/art/Whac-A-Mole-Logo-Recreation-858122882)
+
+I found the mole here (https://imgbin.com/png/mDH1BbQs/whac-a-mole-crappy-flappy-moles-android-video-game-png)
+
+I found the bomb image here (https://www.rawpixel.com/search/bomb%20cartoon?page=1&path=_topics&sort=curated)
+
+### Content 
+
+I wrote all the content for this page, the 3x3 grid is common on all these videos and seemed common on any online version of Whac-A-Mole.
