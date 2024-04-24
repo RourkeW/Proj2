@@ -160,10 +160,35 @@ I deployed my page on git pages, using github I found my repository I wanted to 
 
 ### W3C Validator
 
-[W3C](https://validator.w3.org/nu/
+[W3C]([https://validator.w3.org/nu/](https://jigsaw.w3.org/css-validator/validator)) was used to verify the CSS.
 ![W3C Validator image for the HTML](read-me-images/CSS.JPG)
 
 ### Jshint Validator
 
 [Jshint](https://jshint.com/) was used to validate the JS.
 ![Image proving Jshint](read-me-images/js.JPG)
+
+### Wave Evaluation Tool
+
+I used a Chrome extension my Merntor told me about called Wave to evaluate to page.
+
+### Full Testing
+
+Full testing was performed on the following devices:
+
+* Desktop:
+  * Windows 10 PX 
+* Mobile Devices :
+  * iPhone 13 PRO
+ 
+  * Each device tested the site using the following browsers:
+
+* Google Chrome
+* Safari
+* Opera GX
+
+* ## Credits
+
+I got the project idea from just googling ideas for a javascript project, I also always wanted to make some kind of game since I have played games online my entire life. (https://www.freecodecamp.org/news/javascript-projects-for-beginners/)
+
+Videos I used onjline to help me complete the js of this page are: 
