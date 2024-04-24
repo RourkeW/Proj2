@@ -29,7 +29,7 @@ body {
 #board div img {
     width: 160px;
     height: 160px;
-    /* I had this problem where you could highlight the image, I ound this online and it works */
+    /* I had this problem where you could highlight the image, I ound this online and it works https://stackoverflow.com/questions/6816080/how-to-disable-highlight-on-an-image*/
     -khtml-user-select: none;
     -o-user-select: none;
     -moz-user-select: none;
