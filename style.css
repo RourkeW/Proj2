@@ -5,6 +5,10 @@ body {
     color: #000EB4;
 }
 
+.logo {
+    width: 60%;
+}
+
 #board {
     width: 680px;
     height: 680px;
