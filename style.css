@@ -1,12 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Caveat Brush', sans-serif;
     text-align: center;
     background-color: #57B400;
     color: #000EB4;
-}
-
-.logo {
-    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #board {
