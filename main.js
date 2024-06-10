@@ -37,7 +37,7 @@ function setMole() {
     }
 
     let mole = document.createElement("img");
-    mole.src = "mole.png";
+    mole.src = "assets/images/mole.png";
 
     let num = getRandomTile();
     if (bombTile && bombTile.id == num) {
@@ -58,7 +58,7 @@ function setBomb() {
     }
 
     let bomb = document.createElement("img");
-    bomb.src = "bomb.png";
+    bomb.src = "assets/images/bomb.png";
 
     let num = getRandomTile();
     if (moleTile && moleTile.id == num) {
