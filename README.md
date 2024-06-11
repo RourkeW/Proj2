@@ -2,7 +2,7 @@
 
 This is a whac-a-mole mini-game made with html, css and js using gitpod.
 
-![Am I responsive website example image](read-me-images/am-i-responsive.JPG)
+![Am I responsive website example image](assets/images/read-me-images/am-i-responsive.jpg)
 
 ---
 ## CONTENTS
@@ -52,15 +52,15 @@ The Java-script makes sure the 9 divs are chosen at random using a Math.floor(Ma
 
 ### Colour Scheme 
 
-![Green color chosen](read-me-images/green.JPG) 
+![Green color chosen](assets/images/read-me-images/green.jpg) 
 
 I chose this green colour as it wasn't too bright but I wanted something obviously resembling grass.
 
-![Brown colour chosen](read-me-images/color-scheme-dirt.JPG)
+![Brown colour chosen](assets/images/read-me-images/color-scheme-dirt.jpg)
 
 I chose this dirt as I felt it would contrast the green grass well and make it obvious to the user that this is a hole in the ground, I would later use a box shadow property I found on YouTube to make this hole seem to have deprth rather than just a 2-D hole.
 
-![Blue chosen for the score and any other future text](read-me-images/cobalt-blue-contrast.JPG)
+![Blue chosen for the score and any other future text](assets/images/read-me-images/cobalt-blue-contrast.jpg)
 
 Finally, I chose this as hexcol.com suggested it would be a good contrast, I tested this on WAVE and no contrast issues were found.
 
@@ -68,7 +68,7 @@ Finally, I chose this as hexcol.com suggested it would be a good contrast, I tes
 
 I chose a Google Font for this called Caveat, I liked the rough and messy hand written style text for this project as if I were to design this project more I would have it based on a farm or in the OutBack like some of the Whac-A-Mole games I found online. 
 
-![Google font image](read-me-images/caveat.JPG)
+![Google font image](assets/images/read-me-images/caveat.jpg)
 
 ### Imagery 
 
@@ -76,7 +76,7 @@ I chose one cartoon image for the mole and one for the bomb, the traditional roy
 
 ### WireFrames
 
-![wireframe of the game](read-me-images/wireframe.JPG)
+![wireframe of the game](assets/images/read-me-images/wireframe.jpg)
 
 I made this wireframe using something called MockFlow https://mockflow.com/, I would use balsamiq usually but my trail ran out and I'm not sure how to get it working again.
 
@@ -87,13 +87,13 @@ I made this wireframe using something called MockFlow https://mockflow.com/, I w
 ## Game Area
 
 The page features a 3 by 3 grid of divs with css properties to make them look like holes. The mole and the bomb will move randomly for a set timer of 0.75 seconds(mole) and 1.5 seconds (bomb). Clicking on the bomb results in a game over displayed in the Score span. Clicking on the mole results in a +10 points being added to the score total.
-![Grid image](read-me-images/grid-img.JPG)
+![Grid image](assets/images/read-me-images/grid-img.jpg)
 
 ## Score
 
 The score span updates based on how often a mole is whacked or if the bomb is whacked. Clicking on the bomb results in a game over displayed in the Score span. Clicking on the mole results in a +10 points being added to the score total.
 
-![Score image](read-me-images/score-img.JPG)
+![Score image](assets/images/read-me-images/score-img.jpg)
 
 ### Future Implementations
 
@@ -173,6 +173,9 @@ I deployed my page on git pages, using github I found my repository I wanted to 
 ### Wave Evaluation Tool
 
 I used a Chrome extension my Merntor told me about called Wave to evaluate to page.
+![Image showing the usage of the Wave Evaluation Tool in action](assets/images/read-me-images/wave.jpg)
+
+There are 2 errors here in the sumamry it is for the lack of alt text in the java added images
 
 ### Full Testing
 
@@ -190,6 +193,8 @@ Full testing was performed on the following devices:
 * Opera GX
 
 * ## Credits
+
+I would like to thank my mentor Luke for being awesome as usual, his quickly theorised fixes helped me to make this project accessible. 
 
 * ### Code Used
 
