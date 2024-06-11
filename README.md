@@ -2,6 +2,10 @@
 
 This is a whac-a-mole mini-game made with html, css and js using gitpod.
 
+## Introduction
+
+As a student I wanted to create something I would find more interesting for this project, I regularly play competitive computer games with friends and chose to create a Whac-a-Mole game using html, css and javascript. I wanted to create an unpredictable program that tests the user on how much score they can achieve in the minigame.
+
 ![Am I responsive website example image](assets/images/read-me-images/am-i-responsive.jpg)
 
 ---
