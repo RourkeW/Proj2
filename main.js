@@ -9,10 +9,11 @@ window.onload = function() {
 
 function runGame() {
     for (let i = 0; i < 9; i++) {
-        //this is creating my 9 divs in the js withing the big game border I made in html you can see them now if we went to inspect
+        // Create 9 divs for the game tiles
         let tile = document.createElement("div");
-        tile.id=i.toString();
+        tile.id = i.toString();
         tile.addEventListener("click", selectTile);
+        tile.addEventListener("touchstart", selectTile); // Added touch event for mobile devices
         document.getElementById("board").appendChild(tile);
     }
 
@@ -21,19 +22,18 @@ function runGame() {
 }
 
 function getRandomTile() {
-    //this is to decide the tile the mole is at so *9 for the amount of holes, floor makes it never choose 9
+    // Get a random tile
     let num = Math.floor(Math.random() * 9);
     return num.toString();
 }
 
 function setMole() {
-
     if (gameOver) {
         return;
     }
 
     if (moleTile) {
-        moleTile.innerHTML="";
+        moleTile.innerHTML = "";
     }
 
     let mole = document.createElement("img");
@@ -48,13 +48,12 @@ function setMole() {
 }
 
 function setBomb() {
-
     if (gameOver) {
         return;
     }
 
-    if(bombTile) {
-        bombTile.innerHTML="";
+    if (bombTile) {
+        bombTile.innerHTML = "";
     }
 
     let bomb = document.createElement("img");
@@ -68,21 +67,22 @@ function setBomb() {
     bombTile.appendChild(bomb);
 }
 
-function selectTile() {
+function selectTile(event) {
+    event.preventDefault(); // Prevent default touch event behavior
 
     if (gameOver) {
         return;
     }
 
-    if(this == moleTile) {
+    if (this === moleTile) {
         score += 10;
         document.getElementById("score").innerText = score.toString();
-    }
-    else if (this == bombTile) {
+    } else if (this === bombTile) {
         document.getElementById("score").innerText = "GAME OVER: " + score.toString();
         gameOver = true;
     }
 }
+
 
 /*some ideas were taken from youtube videos:
 https://www.youtube.com/results?search_query=how+to+make+a+whac+a+mole+game+in+html+css+and+js

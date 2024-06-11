@@ -1,47 +1,60 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* Add box-sizing to include padding and border in element's total width and height */
 }
 
 html, body {
     height: 100%;
+    font-size: 16px; /* Set base font size for responsive scaling */
 }
 
 body {
-    font-family: 'Caveat Brush', sans-serif;
+    font-family: 'Caveat', sans-serif; /* Corrected font name */
     text-align: center;
     background-color: #57B400;
     color: #000EB4;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Added padding for better spacing on small screens */
+}
+
+h1.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+#board {
+    width: 100%;
+    max-width: 680px;
+    aspect-ratio: 1; /* Maintain square aspect ratio */
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Add subtle shadow for better visibility */
+}
+
+#board div {
+    width: 100%;
+    height: 100%;
+    background-color: #76552b;
+    border-radius: 50%;
+    box-shadow: inset 0 10px 0 7px #402905;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#board {
-    width: 680px;
-    height: 680px;
-    margin: 0 auto;
-    /* can do this with grid-template-columns, grid-template-rows */
-    display: flex;
-    flex-wrap: wrap;
-    border: 2px solid white;
-    border-radius: 25px;
-    gap: 40px;
-}
-
-#board div {
-    width: 200px;
-    height: 200px;
-    background-color: #76552b;
-    border-radius: 50%;
-    /*box-shadow idea from: https://www.youtube.com/watch?v=b20YueeXwZg&t=878s */
-    box-shadow: inset 0 10px 0 7px #402905;
-}
-
 #board div img {
-    width: 160px;
-    height: 160px;
-    /* I had this problem where you could highlight the image, I ound this online and it works https://stackoverflow.com/questions/6816080/how-to-disable-highlight-on-an-image*/
+    width: 80%;
+    height: 80%;
     -khtml-user-select: none;
     -o-user-select: none;
     -moz-user-select: none;
@@ -49,11 +62,21 @@ body {
     user-select: none;
 }
 
-@media only screen and (max-width: 1040px) {
+/* Responsive adjustments */
+@media only screen and (max-width: 600px) {
     body {
-      width: 100%;
+        font-size: 14px; /* Adjust base font size for small screens */
     }
-  }
+
+    #board {
+        gap: 5px;
+        padding: 5px;
+    }
+
+    #board div {
+        box-shadow: inset 0 5px 0 3px #402905; /* Adjust shadow for smaller holes */
+    }
+}
 
   /*some ideas were taken from youtube videos:
 https://www.youtube.com/results?search_query=how+to+make+a+whac+a+mole+game+in+html+css+and+js
