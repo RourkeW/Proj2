@@ -217,6 +217,8 @@ I found the mole here (https://imgbin.com/png/mDH1BbQs/whac-a-mole-crappy-flappy
 
 I found the bomb image here (https://www.rawpixel.com/search/bomb%20cartoon?page=1&path=_topics&sort=curated)
 
+I found the favicon here (https://www.flaticon.com/free-icons/mole)
+
 ### Content 
 
 I wrote all the content for this page, the 3x3 grid is common on all these videos and seemed common on any online version of Whac-A-Mole.
