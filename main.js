@@ -4,12 +4,18 @@ let score = 0;
 let gameOver = false;
 
 window.onload = function() {
-    runGame();
-}
+    document.getElementById("startGameButton").addEventListener("click", runGame);
+};
 
 function runGame() {
+    // Reset score and game state
+    score = 0;
+    gameOver = false;
+    document.getElementById("score").innerText = "00";
+    document.getElementById("board").innerHTML = ""; // Clear the board
+
+    // Create the game tiles
     for (let i = 0; i < 9; i++) {
-        // Create 9 divs for the game tiles
         let tile = document.createElement("div");
         tile.id = i.toString();
         tile.addEventListener("click", selectTile);
@@ -76,7 +82,7 @@ function selectTile(event) {
 
     if (this === moleTile) {
         score += 10;
-        document.getElementById("score").innerText = score.toString();
+        document.getElementById("score").innerText = score.toString().padStart(2, '0');
     } else if (this === bombTile) {
         document.getElementById("score").innerText = "GAME OVER: " + score.toString();
         gameOver = true;
