@@ -46,11 +46,11 @@ As a student I wanted to create something I would find more interesting for this
 
 ## User Stories 
 
-The content will not change as the game goes on in terms of elements, there will always be one mole and one bomb, with the same outcome happening when either is clicked. The goal of this game was primarily: 
+As a developer I would like to be able to test my accuray and responsiveness to targets (moles) which give me points while avoiding other targets (bombs) which end the game, this is why the score feature exists, so that I can count how many successful targets I have clicked and bombs to end the game, the start button exists to start the game, restart the game once the game has ended due to bombs or to just restart if I feel like it.
 
 ### Create a unpredictable whac-a-mole game
 
-The Java-script makes sure the 9 divs are chosen at random using a Math.floor(Math.random) * 9) function to make sure there is no pattern in the bomb and the mole placement.
+The Java-script makes sure the 9 divs are chosen at random using a Math.floor(Math.random() * 9) function to make sure there is no pattern in the bomb and the mole placement.
 
 ## Design 
 
@@ -103,13 +103,13 @@ The score span updates based on how often a mole is whacked or if the bomb is wh
 
 1. Alot can be done to improve a project like this, for example I could implement a image of a mallet and use it as a cursor in js. 
 
-2. Another implementation I could make is a play again button rather than F5 the page everytime.
+2. I would like to make it so more than one mole pops up at one time. Same for bombs.
 
-3. I would like to make it so more than one mole pops up at one time. Same for bombs.
+3. Time limit for some difficulty.
 
-4. Time limit for some difficulty.
+4. Perhaps make the holes less symmetrical, adds more difficulty to the game.
 
-5.Perhaps make the holes less symmetrical, adds more difficulty to the game.
+5. Perhaps adding a more 3D look and theme to the game would be better some other examples I have found used outside famrs and had holes with uneven amounts of distanmce between them, this could add an element of difficulty.
 
 ### Accessibility
 
@@ -179,7 +179,7 @@ I deployed my page on git pages, using github I found my repository I wanted to 
 I used a Chrome extension my Merntor told me about called Wave to evaluate to page.
 ![Image showing the usage of the Wave Evaluation Tool in action](assets/images/read-me-images/wave.jpg)
 
-There are 2 errors here in the sumamry it is for the lack of alt text in the java added images
+There is 1 error here in the sumamry it is for the lack of alt text in the java added image.
 
 ### Full Testing
 
