@@ -162,17 +162,17 @@ I deployed my page on git pages, using github I found my repository I wanted to 
 ### Jigsaw CSS Validator
 
 [Jigsaw]([https://jigsaw.w3.org/css-validator/validator](https://validator.w3.org/nu/)) was used to validate the HTML code
-![image proving no issues on nu](read-me-images/HTML.JPG)
+![image proving no issues on nu](assets/images/read-me-images/html.jpg)
 
 ### W3C Validator
 
 [W3C]([https://validator.w3.org/nu/](https://jigsaw.w3.org/css-validator/validator)) was used to verify the CSS.
-![W3C Validator image for the HTML](read-me-images/CSS.JPG)
+![W3C Validator image for the HTML](assets/images/read-me-images/css.jpg)
 
 ### Jshint Validator
 
 [Jshint](https://jshint.com/) was used to validate the JS.
-![Image proving Jshint](read-me-images/js.JPG)
+![Image proving Jshint](assets/images/read-me-images/js.jpg)
 
 ### Wave Evaluation Tool
 
